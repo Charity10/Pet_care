@@ -1,0 +1,108 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Golos+Text&family=Merriweather:wght@300;700&family=Open+Sans:wght@300;400&family=Poppins:wght@300;400&display=swap');
+
+
+body{
+    background-image: linear-gradient(rgb(244, 234, 202), rgb(244, 144, 63));
+    /* background: orange; */ 
+    
+}
+
+:root{
+    --logo-color:rgb(235, 121, 7);
+    --text-color:rgb(83, 81, 81);
+}
+
+.cover-page{
+    background: #f2f2f2;
+    width: 1050px; 
+    height: 800px;  
+    border-radius: 45px;
+    margin: 25px;
+    place-content: centre;
+      
+}
+#logo{
+    background: var(--logo-color) ;
+    width: 60px;
+    height: 60px;
+    margin-top: 30px;
+    margin-left: 50px;
+    position: absolute;
+    border-radius: 18px;
+    color: var(--logo-color);
+    font-size: .8rem;
+    font-family: poppins;
+    font-weight: bold;
+
+}
+
+#feet{
+    width: 42px;
+    padding: 8px ;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-col{
+   margin-top: 8rem;
+   margin-left: 2rem;
+   max-width: 50%;
+   
+}
+.hero-text{
+    font-family: poppins;
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: rgb(57, 56, 56);
+    margin-top: 0;
+    font-weight: bold;
+    
+   
+    
+}
+
+.hero-p{
+    font-family: Golos;
+    color: var(--text-color);
+    font-weight:bold;
+    font-size: 1rem;
+}
+
+#sub-p{
+   
+    font-size: 1.5rem;
+
+}
+.right-col{
+    width: 430px;
+    height: 550px;
+    border-bottom-left-radius: 50%;
+    background-color: rgb(252, 137, 95);
+    margin-top: 8px;
+    margin-right: 12px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+ul{
+    list-style-type:none;
+    margin: 0;
+    color: white;
+    display: flex;
+    gap: 14px;
+    font-size: 14px;
+    padding: 20px;
+    font-family: poppins;
+}
+
+.hero-dog{
+    width: 473px;
+    border-radius: 405px;
+    
+    
+}
