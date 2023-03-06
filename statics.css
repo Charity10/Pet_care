@@ -106,12 +106,14 @@ ul{
     
 }
 img{
-    width: 35px;
+    width: 38px;
+    
     
 }
 .pet-cta{
     display: flex;
     padding: 8px;
+    
    
     /* justify-content: space-between; */
 }
@@ -183,6 +185,12 @@ img{
     margin-right: 20px;
     text-align: left;
 }
+
+/* could't get the right sylying for the image */
+/* .Vet{
+    width: 80%;
+    
+} */
 
 .box3{
     background: #f55e5eda;
